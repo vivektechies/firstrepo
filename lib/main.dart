@@ -17,7 +17,11 @@ class _myAppState extends State<myApp> {
     return MaterialApp(
       home: Scaffold(
          body: Center(
-           child: Text("viek"),
+           child: Column(
+             children: [
+               Text("vivek jatav")
+             ],
+           )
          ),
 
       ),
